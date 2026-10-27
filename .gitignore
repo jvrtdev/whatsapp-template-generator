@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuração local com dados sensíveis (NUNCA commitar a chave do OpenRouter!)
+config.json
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testes locais e logs
+test_*.py
+*.log
+*.tmp

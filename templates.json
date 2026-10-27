@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "titulo": "DESATIVAR/REATIVAR USUÁRIO:",
+    "template": "Usuário reativado:\nNome completo: {nome_usuario_reativado}\nLogin: {login_usuario_reativado}\nE-mail: {email_usuario_reativado}\n\nUsuário desativado:\nNome completo: {nome_usuario_desativadol}\nLogin: {login_usuario_desativado}\nE-mail: {email_usuario_desativado}",
+    "campos": [
+      "nome_usuario_reativado",
+      "login_usuario_reativado",
+      "email_usuario_reativado",
+      "nome_usuario_desativadol",
+      "login_usuario_desativado",
+      "email_usuario_desativado"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "REDEFINIÇÃO DE SENHA:",
+    "template": "Nome: {nome}\nLogin: {login}\nE-mail: {email}\n\nE-mail para redefinir senha enviado",
+    "campos": [
+      "nome",
+      "login",
+      "email"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "RESETAR AUTHENTICATOR:",
+    "template": "Authenticator resetado:\n{nome_usuario}",
+    "campos": [
+      "nome_usuario"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "CRIAÇÃO DE TEMPLATES:",
+    "template": "TEMPLATES CRIADOS:\n{template1}\n{template2}\n{template3}\n{template4}\n{template5}\n\nPreciso que testem e verifiquem se está tudo certo, por favor.",
+    "campos": [
+      "template1",
+      "template2",
+      "template3",
+      "template4",
+      "template5"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "CRIAÇÃO DE USUÁRIO:",
+    "template": "*Usuário criado:*\nNome completo: {nome}\nLogin: {login}\nE-mail: {email}\n\nPreciso que entre no e-mail o quanto antes para criar a senha. Depois que realizar o primeiro acesso, sair e entrar novamente para fazer o processo de autenticação do aplicativo, vale ressaltar que o Salesforce em princípio retornou com a opção de usar o Salesforce Athenticator, basta ir em \"Selecionar outro método\" na tela.",
+    "campos": [
+      "nome",
+      "login",
+      "email"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "TRANSFERÊNCIA DE OPORTUNIDADES:",
+    "template": "Feito.\nOportunidades transferidas de:\n{usuario1}\nTransferidas para:\n{usuario2}",
+    "campos": [
+      "usuario1",
+      "usuario2"
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "REDEFINIÇÃO DE SENHA:",
+    "template": "*REDEFINIÇÃO DE SENHA:*\n\nNome: {nome}\nLogin: {login}\nE-mail: {email}\n\nE-mail para redefinir senha enviado",
+    "campos": [
+      "nome",
+      "login",
+      "email"
+    ]
+  }
+]
